@@ -1,0 +1,20 @@
+{
+	"address": {
+		"ner": {
+			"en": "http://143.248.135.139:8080/recognition",
+			"de": "http://143.248.135.139:8080/recognition",
+			"ko": "http://143.248.135.139:2224/entity_linking"
+		},
+		"ned": {
+			"en": "http://143.248.135.139:8080/disambiguation",
+			"de": "http://143.248.135.139:8080/disambiguation",
+			"ko": "http://143.248.135.139:2224/entity_linking"
+		},
+		"text2k": {
+			"en": "http://143.248.135.139:8080/text2k",
+			"de": "http://143.248.135.139:8080/text2k",
+			"ko": "http://143.248.135.139:4444/text2k/"
+		},
+		"rdfg": "http://143.248.135.139:7402/service"
+	}
+}
