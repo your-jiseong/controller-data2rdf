@@ -6,18 +6,18 @@ Data2RDF Controller is a workflow manager that is to link all of the sub-modules
 
 Prerequisite
 -----
-The module is working on Python 2.7. It must be prepared to install Python 2.7 and PIP (Python Package Index) before install the module.
+The module is working on Python 2.7. It must be prepared to install Python 2.7 and PIP (Python Package Index) before the installation of the module.
 
 How to install
 -----
 Before executing the module, we need to install all of the dependencies.
-Execute the following command.
+To install dependencies, execute the following command.
 
 ```
 sh dependency.sh
 ```
 
-Configure a service address of sub-modules (NER, NED, Text2K, and RDFG) by changing "conf.json" as below.
+Configure a service address of sub-modules (NER, NED, Text2K, and RDFG) by editing "conf.json" as follows.
 
 ```
 {
@@ -48,12 +48,13 @@ To execute the module, run the service by the following command.
 python service.py
 ```
 
-The service address is as follows.
+The address of REST API is as follows.
+
 ```
 http://server-address:7401/service
 ```
 
-The module accepts only a POST request which of content type is "application/json".
+The module accepts only a POST request which of content type must be "application/json".
 
 AUTHOR(S)
 ---------
