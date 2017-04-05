@@ -51,7 +51,7 @@ python service.py
 The address of REST API is as follows.
 
 ```
-http://server-address:7401/service
+http://(server-address):7401/service
 ```
 
 The module accepts only a POST request which of content type must be "application/json".
