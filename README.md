@@ -8,7 +8,7 @@ Prerequisite
 -----
 The module is working on Python 2.7. It must be prepared to install Python 2.7 and PIP (Python Package Index) before the installation of the module.
 
-How to install
+How to install / execute
 -----
 Before executing the module, we need to install all of the dependencies.
 To install dependencies, execute the following command.
